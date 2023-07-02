@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap");
+
+/* ========== CSS Reset ========== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Koh Santepheap", cursive;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ========== Code Start ========== */
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-image {
+  width: 450px;
+  height: 318px;
+}
+
+.bg-image img {
+  object-fit: cover;
+}
+
+.desc {
+  color: #f1f1f1;
+  background-color: #0d6efd;
+  bottom: 0;
+  padding: 1em;
+
+  position: absolute;
+  opacity: 0.85;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 0.5em;
+}
+
+.news-date {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  min-width: 60px;
+}
+
+.icon-container {
+  width: 100px;
+  height: 18px;
+  border: 1px solid #f9c700;
+  padding: 0 0.5rem;
+  margin: 0;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  color: #f9c700;
+  text-align: center;
+}
+
+.desc p {
+  font-weight: 800;
+}
+
+.star {
+  width: 100px;
+  height: 100px;
+  opacity: 0.8;
+  position: absolute;
+  transform: translate(350%, -80%);
+}
